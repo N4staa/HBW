@@ -1,0 +1,234 @@
+/* index */
+.divimage{width: 400px;
+height: 300px;}
+
+.allimage{display: flex;
+  justify-content: space-between ;
+  width: 100%;
+  flex-wrap: wrap;
+gap: 20px;}
+
+body {
+    margin: 0;
+    font-family: times, Helvetica, sans-serif;
+    text-align: center;
+}
+/* used in all of the pages  */
+.title {
+  overflow: hidden;
+  background-color:rgb(61, 61, 170);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+
+}
+/* Navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: darkblue;
+  font-size: 19px;
+}
+
+/* letters of nav */
+.topnav a {
+  float: left;
+  display: block;
+   color: #80a2e2; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(9, 1, 1);
+}
+
+/* Style the content */
+.content {
+  background-color: #e6e8f7;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.divopp{padding-left: 20pxs;}
+
+
+
+.register2{display: flex;
+justify-content: center;
+align-items: center;}
+.register{
+border: solid 1px;
+background-color: #f0f3f5;
+width: 350px;
+height: 450px;
+align-content: center;}
+
+.thank{padding-bottom: 400px;}
+
+/* Members Page */
+.divbox{border: solid;
+height: 450px;
+width: 250px;
+}
+
+
+.divola{
+display: flex;
+justify-content: space-between;
+width: 100%;
+flex-wrap: wrap;
+gap: 40px;
+}
+
+.contentmem {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  
+  justify-content: center;
+  
+}
+
+/* courses page */
+.divbox2{border: solid;
+  height: 450px;
+  width: 250px;
+  padding-left: 5px;
+  text-align: center;
+  }
+
+  .butt{width: 80px;
+  height: 30px;
+border: solid cornflowerblue;
+background-color: rgb(252, 252, 252);}
+
+/* Application Page */
+.policies{font-size: 12px;
+padding-left: 10px;}
+
+.button{
+ width: 200px;
+height: 30px;
+border:solid; color:rgb(40, 138, 162);
+background-color: rgb(252, 255, 255);
+}
+
+
+.form{padding-left: 20px;
+}
+
+
+
+/* Thank You page  */
+.textarea{width: 350px;
+height: 50px;}
+
+
+
+
+
+/* All page ,Social Media (Footer) */
+.footer {
+   background-color: rgb(61, 61, 170);
+   padding: 35px; 
+  margin-bottom: 10px;
+ text-align: center; 
+justify-content:center;
+/* width: 100%  */
+;
+
+ }
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height:50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  flex-wrap: wrap;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-youtube {
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-snapchat-ghost {
+  background: black;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-radius: 50%;
+}
+
+.fa-skype {
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-android {
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
+
+
+.fa-foursquare {
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
+
+
+.fa-rss {
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divfooter{padding-bottom: 100px;}
+.divheader{padding-top: 100px;}
