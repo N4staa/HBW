@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apply | Hot Beans Web</title>
+  <meta name="description" content="Apply for a role at Hot Beans Web.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="wordmark" href="index.html">Hot Beans <span>Web</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <svg width="18" height="14" viewBox="0 0 18 14" aria-hidden="true"><path d="M0 1h18M0 7h18M0 13h18" stroke="currentColor" stroke-width="2"/></svg>
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="team.html">Our team</a></li>
+          <li class="nav-cta"><a href="apply.html" aria-current="page">Apply now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap page-head">
+      <h1>Apply to join Hot Beans Web.</h1>
+      <p class="lead measure">It takes about five minutes. All fields are required.</p>
+    </div>
+    <section class="section section--white">
+      <div class="wrap apply-layout">
+        <form id="application-form" class="form" action="thank-you.html" method="get">
+          <div id="error-summary" class="error-summary" role="alert" tabindex="-1" hidden>
+            <h2>Please fix the following</h2>
+            <ul></ul>
+          </div>
+
+          <div class="form-grid">
+            <div class="field" data-field="firstName">
+              <label for="first-name">First name</label>
+              <input type="text" id="first-name" name="firstName" autocomplete="given-name" required aria-describedby="first-name-error">
+              <span class="error-message" id="first-name-error"></span>
+            </div>
+
+            <div class="field" data-field="lastName">
+              <label for="last-name">Surname</label>
+              <input type="text" id="last-name" name="lastName" autocomplete="family-name" required aria-describedby="last-name-error">
+              <span class="error-message" id="last-name-error"></span>
+            </div>
+
+            <div class="field" data-field="email">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error">
+              <span class="error-message" id="email-error"></span>
+            </div>
+
+            <div class="field" data-field="phone">
+              <label for="phone">Phone number <span class="hint">UK number, for example 07700 900123</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" required aria-describedby="phone-error">
+              <span class="error-message" id="phone-error"></span>
+            </div>
+
+            <div class="field" data-field="dob">
+              <label for="dob">Date of birth <span class="hint">You must be 16 or over</span></label>
+              <input type="date" id="dob" name="dob" autocomplete="bday" required aria-describedby="dob-error">
+              <span class="error-message" id="dob-error"></span>
+            </div>
+
+            <fieldset class="field" data-field="london" aria-describedby="london-error">
+              <legend>Do you live in London?</legend>
+              <div class="choice-row">
+                <label class="choice"><input type="radio" id="london-yes" name="london" value="yes" required> Yes</label>
+                <label class="choice"><input type="radio" id="london-no" name="london" value="no"> No</label>
+              </div>
+              <span class="error-message" id="london-error"></span>
+            </fieldset>
+
+            <div class="field field--full" data-field="role">
+              <label for="role">Role you're applying for</label>
+              <select id="role" name="role" required aria-describedby="role-error">
+                <option value="">Choose a role</option>
+                <option value="web-developer">Web Developer</option>
+                <option value="it-technician">IT Technician</option>
+                <option value="junior-web-developer">Junior Web Developer</option>
+              </select>
+              <span class="error-message" id="role-error"></span>
+            </div>
+
+            <div class="field field--full" data-field="qualifications">
+              <label for="qualifications">Qualifications <span class="hint">List your qualifications and grades, for example: BTEC Level 3 Extended Diploma in IT, D*D*D</span></label>
+              <textarea id="qualifications" name="qualifications" required aria-describedby="qualifications-error"></textarea>
+              <span class="error-message" id="qualifications-error"></span>
+            </div>
+
+            <div class="field field--full" data-field="consent">
+              <label class="choice"><input type="checkbox" id="consent" name="consent" required aria-describedby="consent-error"> I agree to the privacy policy below</label>
+              <span class="error-message" id="consent-error"></span>
+            </div>
+          </div>
+
+          <button class="button" type="submit">Send application</button>
+
+          <p class="privacy" id="privacy">We will only use your details to process your application and will not share them with third parties without your consent, unless required by law. By applying, you agree to keep confidential any information about our clients and internal processes that you receive during the application process.</p>
+        </form>
+
+        <aside class="apply-aside">
+          <h2>What happens next</h2>
+          <ol class="steps">
+            <li><strong>We review your application</strong>Within 5 working days.</li>
+            <li><strong>A short phone call</strong>With someone from the team you'd join.</li>
+            <li><strong>A practical task and interview</strong>A small, paid task that reflects the real work.</li>
+            <li><strong>A decision</strong>We'll tell you either way, with feedback.</li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <a class="wordmark" href="index.html">Hot Beans <span>Web</span></a>
+          <p>A web development studio that builds fast, accessible websites for start-ups and growing businesses.</p>
+        </div>
+        <div>
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="team.html">Our team</a></li>
+            <li><a href="apply.html">Apply now</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="mailto:careers@hotbeansweb.example">careers@hotbeansweb.example</a></li>
+            <li>London, United Kingdom</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-note">Hot Beans Web is a fictional company created for a BTEC Website Development project. Designed and built by <a href="https://github.com/N4staa">Anastasia Spiner</a> in 2024.</p>
+    </div>
+  </footer>
+</body>
+</html>
