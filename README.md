@@ -4,7 +4,7 @@ A responsive, multi-page recruitment website for **Hot Beans Web**, a fictional 
 
 **Live site:** https://n4staa.github.io/HBW/
 
-![Home page on desktop](docs/screenshot-desktop.jpg)
+![Home page on desktop](screenshot-desktop.jpg)
 
 ## Features
 
@@ -16,7 +16,7 @@ A responsive, multi-page recruitment website for **Hot Beans Web**, a fictional 
 - **Accessibility**: semantic HTML landmarks, a skip link, labelled form controls, `aria-invalid` and `aria-describedby` on errors, visible keyboard focus, sufficient colour contrast and support for reduced motion
 - **Performance**: images resized and compressed from about 95 MB to about 1.3 MB, lazy-loaded below the fold, with no CSS or JavaScript frameworks
 
-<img src="docs/screenshot-mobile-form.jpg" alt="Application form on mobile showing validation errors" width="300">
+<img src="screenshot-mobile-form.jpg" alt="Application form on mobile showing validation errors" width="300">
 
 ## Built with
 
@@ -27,20 +27,12 @@ A responsive, multi-page recruitment website for **Hot Beans Web**, a fictional 
 
 ## Project structure
 
-```
-├── index.html          Home page
-├── careers.html        Open roles and requirements
-├── courses.html        Recommended courses with level filter
-├── team.html           Team profiles
-├── apply.html          Application form
-├── thank-you.html      Personalised confirmation
-├── 404.html            Custom not-found page
-├── assets/
-│   ├── css/style.css   All styles, organised by tokens, layout, components and pages
-│   ├── js/main.js      Navigation, course filter, form validation, confirmation
-│   └── img/            Optimised photos, team portraits and favicon
-└── docs/               README screenshots
-```
+All files sit in the repository root:
+
+- `index.html`, `careers.html`, `courses.html`, `team.html`, `apply.html`, `thank-you.html`, `404.html`: the pages
+- `style.css`: all styles, organised by tokens, layout, components and pages
+- `main.js`: navigation, course filter, form validation and the confirmation page
+- `.jpg` and `.svg` files: optimised photos, team portraits, favicon and README screenshots
 
 ## Run it locally
 
